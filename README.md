@@ -2,17 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+    npx create-react-app capacitor-react-search --template typescript
 
-In the project directory, you can run:
+## Additional dependencies
+
+    yarn add bootstrap@3
+    yarn add react-router-dom
+
+## Available Scripts
 
 ### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `yarn test`
 
