@@ -6,8 +6,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Additional dependencies
 
-    yarn add bootstrap@3
+    yarn add react-bootstrap
+    yarn add bootstrap
     yarn add react-router-dom
+    yarn add --dev @types/react-router-dom
+    yarn add lodash
+    yarn add --dev @types/lodash
+
+## First iteration
+
+Added search functionality.
+Added MainNav and search route.
+Adjusted test.
+
+This is commit "First iteration"
 
 ## Available Scripts
 
