@@ -21,12 +21,58 @@ Adjusted test.
 
 This is commit "First iteration"
 
+## Prepare for iOS development
+
+    brew install cocoapods
+
+install xcode from the app store
+
+    xcode-select --install
+
+This can be useful if later xcodebuild complains about the command line tools instance:
+
+    sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+
+Set up your developer account in Xcode in preferences->Accounts
+
+## Add capacitor to the project
+
+    yarn add @capacitor/core
+    yarn add --dev @capacitor/cli
+
+    npx cap init
+
+Name of your app: capacitor-react-search
+Package ID: com.ltornyi.capacitorReactSearch
+
+## Add iOS platform to the project
+
+    yarn add @capacitor/ios
+    npx cap add ios
+
+    cd ios/App
+    pod install
+
+## Create first build and sync to native project
+
+    yarn build
+    npx cap sync
+
+## Run native project
+
+    npx cap open ios
+
+or
+
+    npx cap run
+
+
 ## Available Scripts
 
 ### `yarn start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3500](http://localhost:3500) to view it in the browser.
 
 ### `yarn test`
 

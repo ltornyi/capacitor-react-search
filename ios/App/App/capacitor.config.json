@@ -1,0 +1,6 @@
+{
+	"appId": "com.ltornyi.capacitorReactSearch",
+	"appName": "capacitor-react-search",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
